@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(1, 1, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-sale-busioness-background-banner-design-multipurpose_1340-16817.jpg");
+    background-size: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    list-style: none;
+    margin: 0 23px;
+    display: inline-block;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  nav li a:hover {
+    font-size: 1.02rem;
+    color: lavender;
+
+  }
+  div li a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  div li a:hover {
+    font-size: 1.02rem;
+    color: lavender;
+
+  }
+
+  .left {
+    font-size: 2rem;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+  }
+
+  .firstSection>div {
+    width: 25%;
+  }
+
+  .leftSection {
+    font-size: 2.5rem;
+  }
+
+  .leftSection .btn {
+    background-color: #1b0333;
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+  }
+
+  .leftSection .btn:hover {
+    font-size: 1rem;
+    color: lavender;
+  }
+
+  .rightSection img {
+    width: 100%;
+    height: 50%;
+    margin: 50px 0;
+  }
+
+  .purple {
+    color: cadetblue;
+  }
+
+
+  #element {
+
+    color: cadetblue;
+  }
+
+  .secondSection {
+    max-width: 80vw;
+    margin: 50px 40px;
+    height: 80vh;
+  }
+
+  main hr {
+    border: 0;
+    background: #a68ec5;
+    height: 1px;
+    margin: 0px 80px;
+  }
+
+  .secondSection h1 {
+    font-size: 3rpm;
+    margin: 0px 110px;
+  }
+
+  .secondSection .box {
+    background: white;
+    width: 80vw;
+    margin: 70px 80px;
+    height: 2px;
+  }
+
+
+
+  .secondSection .vertical {
+    background: white;
+    width: 1px;
+    margin: 0px 130px;
+    height: 2cm;
+    display: inline-block;
+
+  }
+
+  .vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .footer > div{
+    width: 143px;
+  }
+
+  .vertical-desc {
+    position: relative;
+    top: 52px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .footer {
+    display: flex;
+    background-color: #030532;
+    height: 233px;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
